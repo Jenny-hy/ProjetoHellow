@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributo Id No Javascript</title>
+</head>
+<body>
+    <h2>Usando o atributo Id em Javascript</h2>
+    <p>Javascript pode acessar um elemento com um id específico usando o getElementById() metodo:</p>
+
+    <h1 id="myHeader">Olá meninas</h1>
+    <button onclick="displayResult()">Mudar texto</button>
+    <script>
+        function displayResult(){
+            document.getElementById("myHeader").innerHTML = "Vocês são poderosas!";
+        }
+    </script>
+    
+</body>
+</html>
