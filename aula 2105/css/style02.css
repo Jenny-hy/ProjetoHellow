@@ -1,0 +1,29 @@
+body{
+    background-color: #234380;
+}
+#div1{
+    text-align: center;
+    border-radius: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    font-size: 35px;
+}
+table, th, td{
+    border: solid 1px black;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+
+}
+
+img{
+    width: 200px;
+}
+
